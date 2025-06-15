@@ -1,0 +1,10 @@
+.car-photo {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.car-photo--black-and-white {
+  filter: grayscale(100%);
+}
