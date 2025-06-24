@@ -9,14 +9,14 @@ type Story = StoryObj<typeof meta>;
 
 export const NoIcon: Story = {
     args: {
-        title: "Primary Button",
+        title: "Button Without Icon",
         showIcon: false
     }
 }
 
 export const WithIcon: Story = {
     args: {
-        title: "Primary Button",
+        title: "Button With Icon",
         showIcon: true
     }
 }

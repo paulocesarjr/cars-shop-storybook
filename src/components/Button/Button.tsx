@@ -1,4 +1,5 @@
 import { IoCart } from "react-icons/io5";
+import "./button.css";
 
 type ButtonProps = {
   title: string;
@@ -7,7 +8,7 @@ type ButtonProps = {
 
 function Button({ title, showIcon = true }: ButtonProps) {
   return (
-    <button>
+    <button className="button">
       {showIcon && <IoCart />} {title}
     </button>
   );
